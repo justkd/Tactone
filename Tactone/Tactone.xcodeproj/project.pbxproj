@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A19045E1FF5E78100289827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19045D1FF5E78100289827 /* AppDelegate.m */; };
+		6A1904611FF5E78100289827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1904601FF5E78100289827 /* ViewController.m */; };
+		6A1904641FF5E78100289827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1904621FF5E78100289827 /* Main.storyboard */; };
+		6A1904661FF5E78100289827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1904651FF5E78100289827 /* Assets.xcassets */; };
+		6A19046C1FF5E78100289827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19046B1FF5E78100289827 /* main.m */; };
+		6A1904921FF5E7A200289827 /* HapticHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1904901FF5E7A200289827 /* HapticHelper.m */; };
+		6A1904931FF5E7A200289827 /* NNSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1904911FF5E7A200289827 /* NNSlider.m */; };
+		6A1904A61FF5E8B900289827 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19049C1FF5E84D00289827 /* libpd-ios.a */; };
+		6A1904A91FF5E8C600289827 /* NNEasyPD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1904A71FF5E8C600289827 /* NNEasyPD.m */; };
+		6A1904AB1FF5FD1300289827 /* tactone.pd in Resources */ = {isa = PBXBuildFile; fileRef = 6A1904AA1FF5FD1300289827 /* tactone.pd */; };
+		6A2046A31FFBFDAF002A78D8 /* kdTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2046A21FFBFDAF002A78D8 /* kdTableView.m */; };
+		6A2046A71FFBFF9D002A78D8 /* kdSetupTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2046A61FFBFF9D002A78D8 /* kdSetupTableView.m */; };
+		6A2046AA1FFC3B61002A78D8 /* kdPrimitiveDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2046A91FFC3B61002A78D8 /* kdPrimitiveDataStore.m */; };
+		6AEB420A1FFBF8C400AFFB42 /* BVReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEB42091FFBF8C400AFFB42 /* BVReorderTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A1904721FF5E78100289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904511FF5E78100289827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1904581FF5E78100289827;
+			remoteInfo = Tactone;
+		};
+		6A19047D1FF5E78100289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904511FF5E78100289827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1904581FF5E78100289827;
+			remoteInfo = Tactone;
+		};
+		6A19049B1FF5E84D00289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		6A19049D1FF5E84D00289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		6A19049F1FF5E84D00289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30C3D36D1FAA200100C67F08;
+			remoteInfo = "libpd-ios-multi";
+		};
+		6A1904A11FF5E84D00289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30C3D2FA1FAA1FCC00C67F08;
+			remoteInfo = "libpd-osx-multi";
+		};
+		6A1904A31FF5E8B400289827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A1904591FF5E78100289827 /* Tactone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tactone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A19045C1FF5E78100289827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A19045D1FF5E78100289827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A19045F1FF5E78100289827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A1904601FF5E78100289827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A1904631FF5E78100289827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A1904651FF5E78100289827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A19046A1FF5E78100289827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A19046B1FF5E78100289827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A1904711FF5E78100289827 /* TactoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A19047C1FF5E78100289827 /* TactoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A19048E1FF5E7A200289827 /* HapticHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HapticHelper.h; sourceTree = "<group>"; };
+		6A19048F1FF5E7A200289827 /* NNSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSlider.h; sourceTree = "<group>"; };
+		6A1904901FF5E7A200289827 /* HapticHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HapticHelper.m; sourceTree = "<group>"; };
+		6A1904911FF5E7A200289827 /* NNSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSlider.m; sourceTree = "<group>"; };
+		6A1904941FF5E84D00289827 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = NNEasyPD/libpd/libpd.xcodeproj; sourceTree = "<group>"; };
+		6A1904A71FF5E8C600289827 /* NNEasyPD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NNEasyPD.m; path = NNEasyPD/NNEasyPD.m; sourceTree = SOURCE_ROOT; };
+		6A1904A81FF5E8C600289827 /* NNEasyPD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNEasyPD.h; path = NNEasyPD/NNEasyPD.h; sourceTree = SOURCE_ROOT; };
+		6A1904AA1FF5FD1300289827 /* tactone.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tactone.pd; sourceTree = "<group>"; };
+		6A2046A11FFBFDAF002A78D8 /* kdTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kdTableView.h; sourceTree = "<group>"; };
+		6A2046A21FFBFDAF002A78D8 /* kdTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kdTableView.m; sourceTree = "<group>"; };
+		6A2046A51FFBFF9D002A78D8 /* kdSetupTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kdSetupTableView.h; sourceTree = "<group>"; };
+		6A2046A61FFBFF9D002A78D8 /* kdSetupTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kdSetupTableView.m; sourceTree = "<group>"; };
+		6A2046A81FFC3B61002A78D8 /* kdPrimitiveDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kdPrimitiveDataStore.h; sourceTree = "<group>"; };
+		6A2046A91FFC3B61002A78D8 /* kdPrimitiveDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kdPrimitiveDataStore.m; sourceTree = "<group>"; };
+		6AEB42051FFBF8C400AFFB42 /* BVReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVReorderTableView.h; sourceTree = "<group>"; };
+		6AEB42091FFBF8C400AFFB42 /* BVReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVReorderTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1904561FF5E78100289827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1904A61FF5E8B900289827 /* libpd-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A19046E1FF5E78100289827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1904791FF5E78100289827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A1904501FF5E78100289827 = {
+			isa = PBXGroup;
+			children = (
+				6A1904941FF5E84D00289827 /* libpd.xcodeproj */,
+				6A19045B1FF5E78100289827 /* Tactone */,
+				6A19045A1FF5E78100289827 /* Products */,
+				6A1904A51FF5E8B900289827 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A19045A1FF5E78100289827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1904591FF5E78100289827 /* Tactone.app */,
+				6A1904711FF5E78100289827 /* TactoneTests.xctest */,
+				6A19047C1FF5E78100289827 /* TactoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A19045B1FF5E78100289827 /* Tactone */ = {
+			isa = PBXGroup;
+			children = (
+				6AEB42051FFBF8C400AFFB42 /* BVReorderTableView.h */,
+				6AEB42091FFBF8C400AFFB42 /* BVReorderTableView.m */,
+				6A2046A81FFC3B61002A78D8 /* kdPrimitiveDataStore.h */,
+				6A2046A91FFC3B61002A78D8 /* kdPrimitiveDataStore.m */,
+				6A2046A51FFBFF9D002A78D8 /* kdSetupTableView.h */,
+				6A2046A61FFBFF9D002A78D8 /* kdSetupTableView.m */,
+				6A2046A11FFBFDAF002A78D8 /* kdTableView.h */,
+				6A2046A21FFBFDAF002A78D8 /* kdTableView.m */,
+				6A1904AA1FF5FD1300289827 /* tactone.pd */,
+				6A1904A81FF5E8C600289827 /* NNEasyPD.h */,
+				6A1904A71FF5E8C600289827 /* NNEasyPD.m */,
+				6A19048E1FF5E7A200289827 /* HapticHelper.h */,
+				6A1904901FF5E7A200289827 /* HapticHelper.m */,
+				6A19048F1FF5E7A200289827 /* NNSlider.h */,
+				6A1904911FF5E7A200289827 /* NNSlider.m */,
+				6A19045C1FF5E78100289827 /* AppDelegate.h */,
+				6A19045D1FF5E78100289827 /* AppDelegate.m */,
+				6A19045F1FF5E78100289827 /* ViewController.h */,
+				6A1904601FF5E78100289827 /* ViewController.m */,
+				6A1904621FF5E78100289827 /* Main.storyboard */,
+				6A1904651FF5E78100289827 /* Assets.xcassets */,
+				6A19046A1FF5E78100289827 /* Info.plist */,
+				6A19046B1FF5E78100289827 /* main.m */,
+			);
+			path = Tactone;
+			sourceTree = "<group>";
+		};
+		6A1904951FF5E84D00289827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A19049C1FF5E84D00289827 /* libpd-ios.a */,
+				6A19049E1FF5E84D00289827 /* libpd-osx.a */,
+				6A1904A01FF5E84D00289827 /* libpd-ios-multi.a */,
+				6A1904A21FF5E84D00289827 /* libpd-osx-multi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1904A51FF5E8B900289827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1904581FF5E78100289827 /* Tactone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1904851FF5E78100289827 /* Build configuration list for PBXNativeTarget "Tactone" */;
+			buildPhases = (
+				6A1904551FF5E78100289827 /* Sources */,
+				6A1904561FF5E78100289827 /* Frameworks */,
+				6A1904571FF5E78100289827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1904A41FF5E8B400289827 /* PBXTargetDependency */,
+			);
+			name = Tactone;
+			productName = Tactone;
+			productReference = 6A1904591FF5E78100289827 /* Tactone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A1904701FF5E78100289827 /* TactoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1904881FF5E78100289827 /* Build configuration list for PBXNativeTarget "TactoneTests" */;
+			buildPhases = (
+				6A19046D1FF5E78100289827 /* Sources */,
+				6A19046E1FF5E78100289827 /* Frameworks */,
+				6A19046F1FF5E78100289827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1904731FF5E78100289827 /* PBXTargetDependency */,
+			);
+			name = TactoneTests;
+			productName = TactoneTests;
+			productReference = 6A1904711FF5E78100289827 /* TactoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A19047B1FF5E78100289827 /* TactoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A19048B1FF5E78100289827 /* Build configuration list for PBXNativeTarget "TactoneUITests" */;
+			buildPhases = (
+				6A1904781FF5E78100289827 /* Sources */,
+				6A1904791FF5E78100289827 /* Frameworks */,
+				6A19047A1FF5E78100289827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A19047E1FF5E78100289827 /* PBXTargetDependency */,
+			);
+			name = TactoneUITests;
+			productName = TactoneUITests;
+			productReference = 6A19047C1FF5E78100289827 /* TactoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A1904511FF5E78100289827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "notnatural, LLC.";
+				TargetAttributes = {
+					6A1904581FF5E78100289827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6A1904701FF5E78100289827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A1904581FF5E78100289827;
+					};
+					6A19047B1FF5E78100289827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A1904581FF5E78100289827;
+					};
+				};
+			};
+			buildConfigurationList = 6A1904541FF5E78100289827 /* Build configuration list for PBXProject "Tactone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A1904501FF5E78100289827;
+			productRefGroup = 6A19045A1FF5E78100289827 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6A1904951FF5E84D00289827 /* Products */;
+					ProjectRef = 6A1904941FF5E84D00289827 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6A1904581FF5E78100289827 /* Tactone */,
+				6A1904701FF5E78100289827 /* TactoneTests */,
+				6A19047B1FF5E78100289827 /* TactoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6A19049C1FF5E84D00289827 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = 6A19049B1FF5E84D00289827 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6A19049E1FF5E84D00289827 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = 6A19049D1FF5E84D00289827 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6A1904A01FF5E84D00289827 /* libpd-ios-multi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios-multi.a";
+			remoteRef = 6A19049F1FF5E84D00289827 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6A1904A21FF5E84D00289827 /* libpd-osx-multi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx-multi.a";
+			remoteRef = 6A1904A11FF5E84D00289827 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1904571FF5E78100289827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1904661FF5E78100289827 /* Assets.xcassets in Resources */,
+				6A1904AB1FF5FD1300289827 /* tactone.pd in Resources */,
+				6A1904641FF5E78100289827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A19046F1FF5E78100289827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A19047A1FF5E78100289827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A1904551FF5E78100289827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1904611FF5E78100289827 /* ViewController.m in Sources */,
+				6A19046C1FF5E78100289827 /* main.m in Sources */,
+				6A1904931FF5E7A200289827 /* NNSlider.m in Sources */,
+				6A1904921FF5E7A200289827 /* HapticHelper.m in Sources */,
+				6A2046A71FFBFF9D002A78D8 /* kdSetupTableView.m in Sources */,
+				6A19045E1FF5E78100289827 /* AppDelegate.m in Sources */,
+				6A1904A91FF5E8C600289827 /* NNEasyPD.m in Sources */,
+				6A2046A31FFBFDAF002A78D8 /* kdTableView.m in Sources */,
+				6A2046AA1FFC3B61002A78D8 /* kdPrimitiveDataStore.m in Sources */,
+				6AEB420A1FFBF8C400AFFB42 /* BVReorderTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A19046D1FF5E78100289827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1904781FF5E78100289827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A1904731FF5E78100289827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1904581FF5E78100289827 /* Tactone */;
+			targetProxy = 6A1904721FF5E78100289827 /* PBXContainerItemProxy */;
+		};
+		6A19047E1FF5E78100289827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1904581FF5E78100289827 /* Tactone */;
+			targetProxy = 6A19047D1FF5E78100289827 /* PBXContainerItemProxy */;
+		};
+		6A1904A41FF5E8B400289827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 6A1904A31FF5E8B400289827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A1904621FF5E78100289827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1904631FF5E78100289827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A1904831FF5E78100289827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A1904841FF5E78100289827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A1904861FF5E78100289827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Tactone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "nneasypd/libpd/../**";
+			};
+			name = Debug;
+		};
+		6A1904871FF5E78100289827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Tactone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "nneasypd/libpd/../**";
+			};
+			name = Release;
+		};
+		6A1904891FF5E78100289827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = TactoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.notnatural.TactoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tactone.app/Tactone";
+			};
+			name = Debug;
+		};
+		6A19048A1FF5E78100289827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = TactoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.notnatural.TactoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tactone.app/Tactone";
+			};
+			name = Release;
+		};
+		6A19048C1FF5E78100289827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = TactoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.notnatural.TactoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tactone;
+			};
+			name = Debug;
+		};
+		6A19048D1FF5E78100289827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = TactoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.notnatural.TactoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tactone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A1904541FF5E78100289827 /* Build configuration list for PBXProject "Tactone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1904831FF5E78100289827 /* Debug */,
+				6A1904841FF5E78100289827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1904851FF5E78100289827 /* Build configuration list for PBXNativeTarget "Tactone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1904861FF5E78100289827 /* Debug */,
+				6A1904871FF5E78100289827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1904881FF5E78100289827 /* Build configuration list for PBXNativeTarget "TactoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1904891FF5E78100289827 /* Debug */,
+				6A19048A1FF5E78100289827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A19048B1FF5E78100289827 /* Build configuration list for PBXNativeTarget "TactoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A19048C1FF5E78100289827 /* Debug */,
+				6A19048D1FF5E78100289827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A1904511FF5E78100289827 /* Project object */;
+}
